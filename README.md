@@ -1,6 +1,6 @@
 # booru-scraper: scrapes a booru for posts
 
-`booru-scraper` is a Python script that scrapes a [booru](https://en.wiktionary.org/wiki/booru)-style (imageboard)[https://en.wikipedia.org/wiki/Imageboard#Danbooru-style_boards] for posts and sorts them in directories based on the searched tags. Only older boorus are supported, and `booru-scraper` is useful also if you have a copy of such a booru and want to sort its images in different fashions.
+`booru-scraper` is a Python script that scrapes a [booru](https://en.wiktionary.org/wiki/booru)-style [imageboard](https://en.wikipedia.org/wiki/Imageboard#Danbooru-style_boards) for posts and sorts them in directories based on the searched tags. Only older boorus are supported, and `booru-scraper` is useful also if you have a copy of such a booru and want to sort its images in different fashions.
 
 ## Usage
 
