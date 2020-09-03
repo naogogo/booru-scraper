@@ -51,6 +51,9 @@ class BooruPost(object):
         def fetch(self, directory):
                 filepath = "{0}/{1}".format(directory, self.filename)
 
+                if not os.path.isdir(directory):
+                        os.mkdir(directory)
+
                 if os.path.isfile(filepath):
                         with open(filepath, "rb") as f:
                                 checksum = hashlib.md5(f.read()).hexdigest()
